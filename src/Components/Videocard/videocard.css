@@ -1,0 +1,70 @@
+.videocard > img{
+    object-fit: contain;
+    height: 200px;
+    width: 400px;
+
+   
+}
+@media only screen and (max-width: 1170px){
+    .videocard > img{
+        object-fit: contain;
+        height: 200px;
+        width: 300px;
+    
+       
+    }
+}
+.videocard{
+    color:white;
+    width: 400px;
+    height: 400px;
+    padding: 20px;
+    transition: transform 150ms ease-out;
+}
+.videocard:hover{
+    transform: scale(1.09);
+}
+.videocard > h2{
+    padding-top: 10px;
+    
+}
+
+.moviecard{
+    display: none;
+    align-items: center;
+}
+/* .videocard:hover > .moviecard{
+    display: inline;
+} */
+.ICON{
+    margin-top: 10px;
+}
+
+.videocard > p{
+    padding-top: 20px;
+    font-size:1rem ;
+     
+ }
+ .videocard > h2{
+    font-size: 1.2rem;
+     
+ }
+ .videocard > span{
+    font-size: 0.9rem;
+     
+ }
+@media only screen and (max-width: 1170px){
+    .videocard > p{
+       font-size: 0.9rem;
+       padding-top: 0px;
+        
+    }
+    .videocard > h2{
+        font-size: 1rem;
+         
+     }
+     .videocard > span{
+        font-size: 0.9rem;
+         
+     }
+}
